@@ -7,7 +7,7 @@ edition = "2021"
 
 [dependencies]
 gettext-rs = {version = "0.7.0", features = ["gettext-system"]}
-oceania_style = { git = "https://github.com/Eclipse32767/oceania_style.git", version = "0.1.0" }
+oceania_style = { git = "https://github.com/Eclipse32767/oceania_style.git", version = "0.1.1" }
 rfd = { version = "0.12.0", default-features = false, features = ["xdg-portal"] }
 serde = "1.0.159"
 serde_derive = "1.0.159"
