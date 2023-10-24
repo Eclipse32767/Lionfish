@@ -5,10 +5,10 @@ use std::fmt::Debug;
 use iced::keyboard::{Event as kbevent, KeyCode};
 use iced::window::Event as winevent;
 use iced_style::{Theme, theme};
+use oceania_style::{ButtonStyle, get_set_theme, ListStyle, make_custom_theme, MenuStyle, SelectedTheme, ThemeCustom, ThemeSet};
 use rfd::FileDialog;
-use crate::lib_style::{ButtonStyle, get_set_theme, ListStyle, make_custom_theme, MenuStyle, SelectedTheme, ThemeCustom, ThemeSet};
 
-mod lib_style;
+
 
 fn main() -> Result {
     Lionfish::run(Settings::default())
